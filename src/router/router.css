@@ -1,0 +1,77 @@
+.ex {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+
+}
+.major {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+.major-img {
+    display: flex;
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+    justify-content: flex-start;
+}
+.major-tags {
+    display: flex;
+}
+.major-text {
+    display: flex;
+}
+.major-search {
+    display: flex;
+}
+.major-value {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.val {
+    width: 30vw;
+    height: 2.5vh;
+}
+.val-button {
+    background-color: aquamarine;
+    border: none;
+    width: 4vw;
+    height: 3vh;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.rem {
+    border: none;
+    background-color: rgb(214, 114, 114);
+    border-radius: 5px;
+    width: 4vw;
+    height: 3vh;
+}
+.additional {
+    width: 30vw;
+    height: 2.5vh;
+}
+.comment {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.comment1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.val-parent {
+    margin-top: 20px;
+}
